@@ -1,8 +1,8 @@
 import a_PlantClass as pc
 
-primrose = pc.Plant("Green")
+primrose = pc.Plant("Green") #superclass
 
-sunflower = pc.Flower("Yellow")
+sunflower = pc.Flower("Yellow",20) #
 
 print(primrose.get_color())
 
